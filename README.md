@@ -1,5 +1,5 @@
 # GIS_Project
-![poster](./최우수상.jpeg)
+![poster](./최우수상.jpg)
 
 ![poster](./최종지도03.jpeg)
 
