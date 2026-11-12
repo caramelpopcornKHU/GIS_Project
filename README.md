@@ -78,5 +78,6 @@
 * `GIS_Project_GEO_SOM.ipynb`: 서울시 건물정보로 GEO-SOM을 학습하고, 할당된 군집을 보로노이 폴리곤으로 면적화합니다.
 * `GEO_SOM_Seoul_K_Means.ipynb`: GEO-SOM 군집을 K-Means로 다시 묶고, Gap Statistic으로 군집 수를 탐색합니다.
 * `GEO_SOM_Sample_play.ipynb`: 회기동 규모(작은 데이터)로 같은 흐름을 짧게 돌려 보는 시험용 노트북입니다. 학습이 약 1분대로 끝나서, 위 한계를 직접 확인해 보기 좋습니다. 입력 건물 데이터는 용량 때문에 올리지 않았고, `data/hoegiDong.zip`은 회기동 경계 shapefile입니다. 건물 데이터(파일명 `AL_D198_11230_...`, 동대문구)는 노트북 "Data Acquisition" 절에 적힌 공개 데이터 출처에서 받아 노트북의 경로에 맞게 두면 됩니다.
+* `P05_repro_colab.ipynb`: 위 한계 1·3번을 회기동 규모로 다시 돌려 확인한 Colab 실행본(출력 포함)입니다. 원본 `utils.py`와 지리 가중치·격자 거리를 분리한 수정본을 비교하고, 판정 기준은 실행 전에 정해 코드에 고정했습니다.
 * `utils.py`: GEO-SOM, 보로노이 폴리곤 자르기, Gap Statistic 함수 (노트북에서 함수만 불러 씁니다). Gap Statistic 함수는 Kaggle에 공개된 코드를 가져온 것입니다.
 * `최종지도01~03.jpeg`: 결과 지도.
